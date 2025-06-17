@@ -1,0 +1,1 @@
+ Created a Python script that reads smart contract data from the Tron blockchain, dynamically tests multiple function output types, stores successful results in MongoDB, and uses a config file for easy setup.
