@@ -1,0 +1,25 @@
+{
+  "api_key": "5d55cbc4-ea6e-4b72-832f-8f01720bdf56",
+  "endpoint_uri": "https://api.trongrid.io",
+  "mongo_uri": "mongodb://localhost:27017/",
+  "database": "tron_tokens",
+  "collection": "contract_data2",
+
+  "contract_addresses": [
+    "TUgDdc2tBdZNVKj42QKQa78ortdCCZ3ju9",
+    "TMK6twckh5mq38zUiSM6CLSBGzXdqzdHNc",
+    "TFjmWBVBDjBNW6H5Aciytn68W1taBwj3Y2",
+    "TWmEhdr7G4pRmzDKsjxydEuJrN1ErkeNYV"
+  ],
+
+  "function_names": [
+    "name", "_mainAddress", "symbol", "decimals", "totalSupply", "owner",
+    "isOwner", "admin", "getAdmin", "DEFAULT_ADMIN_ROLE", "implementation",
+    "version", "factory", "DOMAIN_SEPARATOR", "governor", "controller",
+    "minter", "paused", "guardian", "timelock", "permitTypeHash", "isContract"
+  ],
+
+  "output_types_to_try": [
+    "string", "address", "bytes32", "bool", "uint8", "uint256"
+  ]
+}
