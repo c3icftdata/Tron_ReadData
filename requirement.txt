@@ -1,0 +1,2 @@
+tronpy== 0.5.0
+pymongo== 4.13.0
